@@ -2,7 +2,8 @@ require 'pry'
 
 def my_all?(collection)
  counter = 0
-  while i < collection.length
+  while counter < collection.length
+  yield(collection[counter])
   counter = counter + 1
 
 end
